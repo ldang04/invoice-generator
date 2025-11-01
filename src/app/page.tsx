@@ -165,7 +165,7 @@ export default function Home() {
                   value={url}
                   onChange={(e) => setUrl(e.target.value)}
                   placeholder="https://www.shopgarage.com/listing/..."
-                  className="w-full rounded-xl border border-neutral-300 px-4 py-2.5 text-base placeholder:text-neutral-500 focus:outline-none focus:ring-2 focus:ring-primary-500/20 focus:border-primary-500 transition-all disabled:bg-neutral-100 disabled:cursor-not-allowed"
+                  className="w-full rounded-xl border border-neutral-300 px-4 py-2.5 text-sm placeholder:text-neutral-500 focus:outline-none focus:ring-2 focus:ring-primary-500/20 focus:border-primary-500 transition-all disabled:bg-neutral-100 disabled:cursor-not-allowed"
                 />
                 <button
                   type="submit"
@@ -189,7 +189,7 @@ export default function Home() {
                       type="text"
                       value={buyerInfo.name}
                       onChange={(e) => handleBuyerInfoChange("name", e.target.value)}
-                      className="w-full rounded-xl border border-neutral-300 px-3 md:px-4 py-2 text-sm md:text-base focus:outline-none focus:ring-2 focus:ring-primary-500/20 focus:border-primary-500 transition-all"
+                      className="w-full rounded-xl border border-neutral-300 px-3 md:px-4 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-primary-500/20 focus:border-primary-500 transition-all"
                       placeholder="Buyer Name"
                     />
                   </div>
@@ -199,7 +199,7 @@ export default function Home() {
                       type="text"
                       value={buyerInfo.company}
                       onChange={(e) => handleBuyerInfoChange("company", e.target.value)}
-                      className="w-full rounded-xl border border-neutral-300 px-3 md:px-4 py-2 text-sm md:text-base focus:outline-none focus:ring-2 focus:ring-primary-500/20 focus:border-primary-500 transition-all"
+                      className="w-full rounded-xl border border-neutral-300 px-3 md:px-4 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-primary-500/20 focus:border-primary-500 transition-all"
                       placeholder="Company/Department"
                     />
                   </div>
@@ -209,7 +209,7 @@ export default function Home() {
                       type="text"
                       value={buyerInfo.address1}
                       onChange={(e) => handleBuyerInfoChange("address1", e.target.value)}
-                      className="w-full rounded-xl border border-neutral-300 px-3 md:px-4 py-2 text-sm md:text-base focus:outline-none focus:ring-2 focus:ring-primary-500/20 focus:border-primary-500 transition-all"
+                      className="w-full rounded-xl border border-neutral-300 px-3 md:px-4 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-primary-500/20 focus:border-primary-500 transition-all"
                       placeholder="Address Line 1"
                     />
                   </div>
@@ -219,7 +219,7 @@ export default function Home() {
                       type="text"
                       value={buyerInfo.address2}
                       onChange={(e) => handleBuyerInfoChange("address2", e.target.value)}
-                      className="w-full rounded-xl border border-neutral-300 px-3 md:px-4 py-2 text-sm md:text-base focus:outline-none focus:ring-2 focus:ring-primary-500/20 focus:border-primary-500 transition-all"
+                      className="w-full rounded-xl border border-neutral-300 px-3 md:px-4 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-primary-500/20 focus:border-primary-500 transition-all"
                       placeholder="Address Line 2"
                     />
                   </div>
@@ -229,7 +229,7 @@ export default function Home() {
                       type="text"
                       value={buyerInfo.cityStateZip}
                       onChange={(e) => handleBuyerInfoChange("cityStateZip", e.target.value)}
-                      className="w-full rounded-xl border border-neutral-300 px-3 md:px-4 py-2 text-sm md:text-base focus:outline-none focus:ring-2 focus:ring-primary-500/20 focus:border-primary-500 transition-all"
+                      className="w-full rounded-xl border border-neutral-300 px-3 md:px-4 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-primary-500/20 focus:border-primary-500 transition-all"
                       placeholder="City, State ZIP"
                     />
                   </div>
@@ -239,7 +239,7 @@ export default function Home() {
                       type="tel"
                       value={buyerInfo.phone}
                       onChange={(e) => handleBuyerInfoChange("phone", e.target.value)}
-                      className="w-full rounded-xl border border-neutral-300 px-3 md:px-4 py-2 text-sm md:text-base focus:outline-none focus:ring-2 focus:ring-primary-500/20 focus:border-primary-500 transition-all"
+                      className="w-full rounded-xl border border-neutral-300 px-3 md:px-4 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-primary-500/20 focus:border-primary-500 transition-all"
                       placeholder="Phone"
                     />
                   </div>
@@ -249,7 +249,7 @@ export default function Home() {
                       type="email"
                       value={buyerInfo.email}
                       onChange={(e) => handleBuyerInfoChange("email", e.target.value)}
-                      className="w-full rounded-xl border border-neutral-300 px-3 md:px-4 py-2 text-sm md:text-base focus:outline-none focus:ring-2 focus:ring-primary-500/20 focus:border-primary-500 transition-all"
+                      className="w-full rounded-xl border border-neutral-300 px-3 md:px-4 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-primary-500/20 focus:border-primary-500 transition-all"
                       placeholder="Email"
                     />
                   </div>
