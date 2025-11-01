@@ -251,7 +251,7 @@ export default function InvoicePDF(props: InvoicePDFProps) {
             <Text style={styles.sectionTitle}>SELLER</Text>
             <Text style={styles.valueBold}>Garage Technologies, Inc.</Text>
             <Text style={styles.value}>Phone: (201) 293-7164</Text>
-            <Text style={styles.value}>Email: support@shopgarage.com</Text>
+            <Text style={styles.value}>Email: support@withgarage.com</Text>
             <Text style={styles.value}>Website: www.shopgarage.com</Text>
             {seller?.name && (
               <>
