@@ -47,7 +47,7 @@ export default function PDFViewer({ pdfUrl, onDownload, onEmail, updating = fals
             {onDownload && (
               <button
                 onClick={onDownload}
-                className="flex-1 sm:flex-none px-3 md:px-4 py-1.5 md:py-2 bg-primary-500 text-white text-sm md:text-base font-medium rounded-xl hover:bg-primary-600 active:scale-[0.99] transition-all duration-200 shadow-md hover:shadow-lg"
+                className="flex-1 sm:flex-none px-3 md:px-4 py-1.5 md:py-2 bg-primary-500 text-white text-sm md:text-base font-medium rounded-xl hover:bg-primary-600 active:scale-[0.99] transition-all duration-200 cursor-pointer"
               >
                 Download PDF
               </button>
@@ -55,7 +55,7 @@ export default function PDFViewer({ pdfUrl, onDownload, onEmail, updating = fals
             {onEmail && (
               <button
                 onClick={onEmail}
-                className="flex-1 sm:flex-none px-3 md:px-4 py-1.5 md:py-2 bg-white border border-neutral-300 text-neutral-700 text-sm md:text-base font-medium rounded-xl hover:bg-neutral-50 active:scale-[0.99] transition-all duration-200 shadow-md hover:shadow-lg"
+                className="flex-1 sm:flex-none px-3 md:px-4 py-1.5 md:py-2 bg-white border border-neutral-300 text-neutral-700 text-sm md:text-base font-medium rounded-xl hover:bg-neutral-50 active:scale-[0.99] transition-all duration-200 cursor-pointer"
               >
                 Email PDF
               </button>

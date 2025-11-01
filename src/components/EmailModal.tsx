@@ -65,7 +65,7 @@ export default function EmailModal({ pdfUrl, onClose }: EmailModalProps) {
       <div className="bg-white rounded-2xl shadow-xl max-w-md w-full p-6 relative">
         <button
           onClick={onClose}
-          className="absolute top-4 right-4 text-neutral-400 hover:text-neutral-600 transition-colors"
+          className="absolute top-4 right-4 text-neutral-400 hover:text-neutral-600 transition-colors cursor-pointer"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -149,14 +149,14 @@ export default function EmailModal({ pdfUrl, onClose }: EmailModalProps) {
                 type="button"
                 onClick={onClose}
                 disabled={sending}
-                className="flex-1 px-4 py-2.5 text-sm md:text-base border border-neutral-300 text-neutral-700 font-medium rounded-xl hover:bg-neutral-50 active:scale-[0.99] transition-all disabled:opacity-50 disabled:cursor-not-allowed"
+                className="flex-1 px-4 py-2.5 text-sm md:text-base border border-neutral-300 text-neutral-700 font-medium rounded-xl hover:bg-neutral-50 active:scale-[0.99] transition-all cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed"
               >
                 Cancel
               </button>
               <button
                 type="submit"
                 disabled={sending || !email}
-                className="flex-1 px-4 py-2.5 text-sm md:text-base bg-primary-500 text-white font-medium rounded-xl hover:bg-primary-600 active:scale-[0.99] transition-all duration-200 shadow-md hover:shadow-lg disabled:opacity-50 disabled:cursor-not-allowed"
+                className="flex-1 px-4 py-2.5 text-sm md:text-base bg-primary-500 text-white font-medium rounded-xl hover:bg-primary-600 active:scale-[0.99] transition-all duration-200 cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed"
               >
                 {sending ? (
                   <span className="flex items-center justify-center gap-2">

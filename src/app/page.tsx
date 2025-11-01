@@ -170,7 +170,7 @@ export default function Home() {
                 <button
                   type="submit"
                   disabled={!looksValid || busy}
-                  className="w-full rounded-xl bg-primary-500 text-white font-medium py-2.5 md:py-2.5 text-sm md:text-base hover:bg-primary-600 active:scale-[0.99] transition-all duration-200 shadow-md hover:shadow-lg disabled:opacity-50 disabled:cursor-not-allowed"
+                  className="w-full rounded-xl bg-primary-500 text-white font-medium py-2.5 md:py-2.5 text-sm md:text-base hover:bg-primary-600 active:scale-[0.99] transition-all duration-200 cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed"
                 >
                   {busy ? "Generating…" : "Generate PDF"}
                 </button>
